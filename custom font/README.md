@@ -20,4 +20,5 @@ Put these in a utility package and add the package declaration to the top of eac
 		CustomFontRenderer arial32 = new CustomFontRenderer(new Font("Arial", Font.PLAIN, 32));
 		CustomFontRenderer arial40 = new CustomFontRenderer(new Font("Arial", Font.PLAIN, 40));
 		CustomFontRenderer arial48 = new CustomFontRenderer(new Font("Arial", Font.PLAIN, 48));
+	}
 ```
