@@ -17,7 +17,7 @@ import net.minecraft.client.shader.Framebuffer;
 import net.minecraft.client.shader.ShaderGroup;
 import net.minecraft.util.ResourceLocation;
 
-public class GUIUtils {
+public class BlurUtil {
 
     /**
     * @author Oliver Williams (OlivesAreShit)
