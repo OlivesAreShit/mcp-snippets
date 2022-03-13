@@ -57,3 +57,18 @@ public class ClickGUICosmeticsScreen extends GuiScreen {
 	
 }
 ```
+
+# Error fixes
+
+
+If you're using Optifine and get an error with the lines that have closeShaders() in them than replace closeShaders() with func_181022_b().
+
+```  
+     public void disableBlur() {
+ 		IMetadataSerializer metadataSerializer = new IMetadataSerializer();
+ 		IReloadableResourceManager mcResourceManager = new SimpleReloadableResourceManager(metadataSerializer);
+        EntityRenderer entityRenderer = new EntityRenderer(mc, mcResourceManager);
+         
+        this.mc.entityRenderer.func_181022_b();
+     }
+```
